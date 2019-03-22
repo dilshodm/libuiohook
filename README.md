@@ -4,7 +4,7 @@ libuiohook
 A multi-platform C library to provide global keyboard and mouse hooks from userland.
 
 ## Compiling
-Prerequisites: autotools, pkg-config, libtool, gcc, clang or msys2/mingw32
+Prerequisites: autotools, pkg-config, libtool, gcc, clang or msys2/mingw32. On MacOS there has to be installed at least these four packages using brew: `autoconf automake libtool pkg-config`
 
     ./bootstrap.sh
     ./configure
